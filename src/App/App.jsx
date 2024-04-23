@@ -9,7 +9,7 @@ const App = () => {
   const [selectedWidth, setSelectedWidth] = useState("155");
   const [selectedHeight, setSelectedHeight] = useState("45");
   const [selectedRadius, setSelectedRadius] = useState("13");
-  const [warehouse, setWarehouse] = useState("Exeed");
+  const [warehouse, setWarehouse] = useState("Задайте параметры");
 
   const handleCompanyChange = (event) => {
     setSelectedCompany(event.target.value);
@@ -120,6 +120,15 @@ const App = () => {
           type="button"
         >
           Рассчитать
+        </Button>
+        <Button
+          onClick={() => {
+            setWarehouse("Задайте параметры")
+          }}
+          variant="primary"
+          type="button"
+        >
+          Сбросить
         </Button>
       </Form>
       <div className={styles.footer}>Склад: {warehouse}</div>
