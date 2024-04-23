@@ -122,6 +122,7 @@ const App = () => {
           Рассчитать
         </Button>
         <Button
+        style={{marginLeft: '10px'}}
           onClick={() => {
             setWarehouse("Задайте параметры")
           }}
