@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/tyres/static/css/main.7e4f9a4c.css",
-    "main.js": "/tyres/static/js/main.a0c1d01a.js",
+    "main.js": "/tyres/static/js/main.31e41429.js",
     "index.html": "/tyres/index.html",
     "main.7e4f9a4c.css.map": "/tyres/static/css/main.7e4f9a4c.css.map",
-    "main.a0c1d01a.js.map": "/tyres/static/js/main.a0c1d01a.js.map"
+    "main.31e41429.js.map": "/tyres/static/js/main.31e41429.js.map"
   },
   "entrypoints": [
     "static/css/main.7e4f9a4c.css",
-    "static/js/main.a0c1d01a.js"
+    "static/js/main.31e41429.js"
   ]
 }
