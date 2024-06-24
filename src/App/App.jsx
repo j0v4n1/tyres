@@ -105,6 +105,7 @@ const App = () => {
             <option value="18">18</option>
             <option value="19">19</option>
             <option value="20">20</option>
+            <option value="21">20</option>
           </Form.Select>
         </Form.Group>
         <Button
@@ -122,9 +123,9 @@ const App = () => {
           Рассчитать
         </Button>
         <Button
-        style={{marginLeft: '10px'}}
+          style={{ marginLeft: "10px" }}
           onClick={() => {
-            setWarehouse("Задайте параметры")
+            setWarehouse("Задайте параметры");
           }}
           variant="primary"
           type="button"
