@@ -38,6 +38,12 @@ const warehouses = {
   "AML-245-65-17": "Sollers",
   "AML-155-55-13": "Sollers",
   "AML-195-70-15": "Sollers",
+  "AMO-215-75-16": "Sollers",
+  "AMO-185-75-16": "Sollers",
+  "AMO-195-75-16": "Sollers",
+  "AMO-245-65-17": "Sollers",
+  "AMO-155-55-13": "Sollers",
+  "AMO-195-70-15": "Sollers",
 };
 
 export default warehouses;
